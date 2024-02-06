@@ -1,6 +1,6 @@
 # Aplikasi MultiDocs Chat
 
-Aplikasi MultiDocs Chat adalah sebuah aplikasi Python yang memungkinkan anda untuk chat dengan banyak dokumen. Anda bisa bertanya tentang dokumen-dokumen yang anda berikan menggunakan bahasa yang natural, dan aplikasi ini akan memberikan respon yang relevan berdasarkan koren dari dokumen-dokumen yang anda berikan. Aplikasi ini menggunakan sebuah _language model_ untuk menghasilkan jawaban yang akurat terhadap permintaan anda.
+Aplikasi MultiDocs Chat adalah sebuah aplikasi Python yang memungkinkan anda untuk chat dengan banyak dokumen. Anda bisa bertanya tentang dokumen-dokumen yang anda berikan menggunakan bahasa yang natural, dan aplikasi ini akan memberikan respon yang relevan berdasarkan dokumen-dokumen yang anda berikan. Aplikasi ini menggunakan sebuah _language model_ untuk menghasilkan jawaban yang akurat terhadap permintaan anda.
 Perlu diketahui bahwa aplikasi ini hanya merespon pertanyaan yang berhubungan dengan dokumen-dokumen yang anda berikan.
 
 ## Dependency-Dependency & Instalasi
