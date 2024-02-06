@@ -1,4 +1,4 @@
-# EMAS2-BOT
+# Multiple Docs Chat App
 
 Otomasi pengerjaan tugas-tugas emas2 & MultiPDF Chat app.
 
