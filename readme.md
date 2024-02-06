@@ -2,8 +2,6 @@
 
 Otomasi pengerjaan tugas-tugas emas2 & MultiPDF Chat app.
 
-> Untuk GUI bisa juga lihat tutorial di [YouTube](https://youtu.be/dXxQ0LR-3Hg).
-
 ## Dependency-Dependency & Instalasi
 ----------------------------
 Untuk menginstall aplikasi emas2-bot, ikuti langkah-langkah berikut:
