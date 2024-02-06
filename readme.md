@@ -30,10 +30,10 @@ Untuk menginstall aplikasi ini, ikuti langkah-langkah berikut:
    ```
 
 4. Dapatkan API key dari OpenAI dan tambahkan API key serta tanda anda ke file `.env` di direktori projek.
-```commandline
-OPENAI_API_KEY=api_key_rahasia_anda
-mark="tanda_anda"
-```
+   ```commandline
+   OPENAI_API_KEY=api_key_rahasia_anda
+   mark="tanda_anda"
+   ```
 
 ## Penggunaan
 -----
@@ -51,7 +51,7 @@ Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
    #Untuk Lokal
    uvicorn main:docs_chat --reload
 
-   #Untuk Server #.#.#.# diisi dengan ip tujuan dan port diisi dengan port yang kosong
+   #Untuk Server #.#.#.# diisi dengan ip tujuan dan #### diisi dengan port yang kosong
    uvicorn main:docs_chat --host #.#.#.# --port ####
    ```
 
