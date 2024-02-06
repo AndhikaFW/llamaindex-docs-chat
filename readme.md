@@ -1,4 +1,5 @@
 # Aplikasi MultiDocs Chat
+![Screenshot 2024-02-06 at 18-48-58 📚 Chat dengan dokumen](https://github.com/AndhikaFW/llamaindex-docs-chat/assets/54433358/ead8c443-f291-4651-9454-509df0be0e3d)
 
 Aplikasi MultiDocs Chat adalah sebuah aplikasi Python yang memungkinkan anda untuk chat dengan banyak dokumen. Anda bisa bertanya tentang dokumen-dokumen yang anda berikan menggunakan bahasa yang natural, dan aplikasi ini akan memberikan respon yang relevan berdasarkan dokumen-dokumen yang anda berikan. Aplikasi ini menggunakan sebuah _language model_ untuk menghasilkan jawaban yang akurat terhadap permintaan anda.
 Perlu diketahui bahwa aplikasi ini hanya merespon pertanyaan yang berhubungan dengan dokumen-dokumen yang anda berikan.
