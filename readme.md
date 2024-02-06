@@ -65,7 +65,7 @@ Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
 
 
 
-## License
+## Lisensi
 -------
  Aplikasi MultiDocs Chat dirilis dibawah [Lisensi MIT](https://opensource.org/licenses/MIT).
 
