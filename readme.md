@@ -1,4 +1,4 @@
-# MultiDocs Chat App
+# Aplikasi MultiDocs Chat
 
 ## Dependency-Dependency & Instalasi
 ----------------------------
@@ -63,5 +63,5 @@ Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
 
 ## License
 -------
-The MultiDocs Chat App dirilis dibawah [Lisensi MIT](https://opensource.org/licenses/MIT).
+ Aplikasi MultiDocs Chat dirilis dibawah [Lisensi MIT](https://opensource.org/licenses/MIT).
 
