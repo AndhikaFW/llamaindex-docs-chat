@@ -51,7 +51,7 @@ Untuk menggunakan aplikasi ini, ikuti langkah-langkah berikut:
 3. Jalankan file `main.py` dengan CLI. `Jalankan perintah berikut`:
    ```
    #Untuk Lokal
-   uvicorn main:docs_chat --reload
+   uvicorn main:docs_chat
 
    #Untuk Server #.#.#.# diisi dengan ip tujuan dan #### diisi dengan port yang kosong
    uvicorn main:docs_chat --host #.#.#.# --port ####
