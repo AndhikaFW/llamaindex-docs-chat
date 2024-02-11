@@ -72,7 +72,7 @@ async def create_upload_files(question: str = Form(...),files: list[UploadFile] 
                         </button>                                                                                                                                                                                                                                                                                                                                       
                     </li>                                                                                                                                                                                                                                                                                                                                               
                 </ul>                                                                                                                                                                                                                                                                                                                                                   
-                <div id="GFG" style="padding:20px 5% 0">{ response }</div>
+                <div id="GFG" style="padding:20px 5% 0; white-space: pre-wrap">{ response }</div>
                 <div id="M" hidden>{ mark }</div>
             </body>
             <script src="../static/js/print.js"></script>
