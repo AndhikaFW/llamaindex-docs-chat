@@ -11,8 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()                                                  
 api_key = os.getenv("OPENAI_API_KEY")                          
 mark = os.getenv("mark")
-from llama_index.llms import OpenAI                            
-from llama_index import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.llms.openai import OpenAI
 from pathlib import Path
 
 docs_chat = FastAPI()
@@ -35,14 +34,15 @@ async def create_upload_files(question: str = Form(...),files: list[UploadFile] 
 
         documents = SimpleDirectoryReader(input_files=[f"data/{file.filename}" for file in files]).load_data()
         #Custom                                                                                   
-        from llama_index import ServiceContext, set_global_service_context                        
+        from llama_index.core import Settings                      
                                                                                           
         #define LLM:                                                                              
-        llm = OpenAI(model="gpt-3.5-turbo", temperature=0, max_tokens=256)                        
-        #configure service context                                                                
-        service_context = ServiceContext.from_defaults(llm=llm, chunk_size=1000, chunk_overlap=20)
+        Settings.llm = OpenAI(model="gpt-3.5-turbo", temperature=0, max_tokens=256)
+        #configure settings                                                                
+        Settings.chunk_size = 512
+        Settings.chunk_overlap = 20
         #set_global_service_context(service_context)                                              
-        index = VectorStoreIndex.from_documents(documents, service_context=service_context)       
+        index = VectorStoreIndex.from_documents(documents)       
         query_engine = index.as_query_engine()                                                    
                                                                                           
         response = query_engine.query(question)                                                   
