@@ -12,6 +12,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")                          
 mark = os.getenv("mark")
 from llama_index.llms.openai import OpenAI
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from pathlib import Path
 
 docs_chat = FastAPI()
